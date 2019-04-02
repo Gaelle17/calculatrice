@@ -14,4 +14,8 @@ public class AdditionTest {
 	public void additionTest2() {
 		assertTrue(-1 + 4 == Addition.addition(-1, 4));
 	}
+	@Test
+	public void additionTest3() {
+		assertTrue(4 + -1 == Addition.addition(4, -1));
+	}
 }
