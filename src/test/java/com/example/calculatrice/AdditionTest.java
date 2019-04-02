@@ -23,7 +23,11 @@ public class AdditionTest {
 		assertTrue(0 + 4 == Addition.addition(0, 4));
 	}
 	@Test
-	public void addition5() {
+	public void additionTest5() {
 		assertTrue(4 + 0 == Addition.addition(4, 0));
+	}
+	@Test
+	public void additionTest6() {
+		assertTrue(0 + -1 == Addition.addition(0, -1));
 	}
 }
