@@ -18,4 +18,8 @@ public class AdditionTest {
 	public void additionTest3() {
 		assertTrue(4 + -1 == Addition.addition(4, -1));
 	}
+	@Test
+	public void additionTest4() {
+		assertTrue(0 + 4 == Addition.addition(0, 4));
+	}
 }
