@@ -7,6 +7,12 @@ import org.junit.Test;
 public class AdditionTest {
 	
 	@Test
+	public void additionClassExistTest() {
+		Class<Addition>klass = Addition.class;
+		assertTrue("com.example.calculatrice.Addition" == klass.getName());
+		System.out.println(klass);		
+	}
+	@Test
 	public void additionTest1() {
 		assertTrue(2 + 4 == Addition.addition(2, 4));
 	}
@@ -38,4 +44,5 @@ public class AdditionTest {
 	public void additionTest8() {
 		assertTrue(-1 + -1 == Addition.addition(-1, -1));
 	}
+	
 }
