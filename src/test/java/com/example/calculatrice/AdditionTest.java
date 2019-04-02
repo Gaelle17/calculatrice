@@ -30,4 +30,12 @@ public class AdditionTest {
 	public void additionTest6() {
 		assertTrue(0 + -1 == Addition.addition(0, -1));
 	}
+	@Test
+	public void additionTest7() {
+		assertTrue(-1 + 0 == Addition.addition(-1, 0));
+	}
+	@Test
+	public void additionTest8() {
+		assertTrue(-1 + -1 == Addition.addition(-1, -1));
+	}
 }
