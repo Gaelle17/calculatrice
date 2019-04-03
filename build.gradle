@@ -4,9 +4,9 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.8
 version = '1.0'
 
-def classesJava = "${project.buildDir}/classes/main"
+def classesJava = "${project.buildDir}/classes/java/main"
 def javasRoot = "${rootProject.rootDir}/src/main/java"
-def testClassesJava = "$project.buildDir}/classes/test"
+def testClassesJava = "${project.buildDir}/classes/java/test"
 def testJavaRoot = "${rootProject.rootDir}/src/test/java"
 
 jar {
@@ -71,5 +71,25 @@ task copyDeps(type: Copy) {
 }
 
 
+
+
+
+
+/*FindBugs*/
+apply plugin: 'findbugs'
+
+task findbugsMain (type: FindBugs, overwrite: true) {
+ignoreFailures = true
+description 'Run findbugs'
+classes = fileTree(classesJava)
+source = fileTree(javasRoot)
+classpath = files(classesJava)
+effort = 'max'
+excludeFilter = file("$rootProject.projectDir/config/findbugs/findbugsExclude.xml")
+reports {
+xml.enabled = true
+html.enabled = false
+}
+}
 
 
