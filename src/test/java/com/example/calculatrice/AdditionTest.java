@@ -9,8 +9,7 @@ public class AdditionTest {
 	@Test
 	public void additionClassExistTest() {
 		Class<Addition>klass = Addition.class;
-		assertTrue("com.example.calculatrice.Addition" == klass.getName());
-		System.out.println(klass);		
+		assertTrue("com.example.calculatrice.Addition" == klass.getName());		
 	}
 	@Test
 	public void additionTest1() {
