@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554384129818" analysisTimestamp="1554384129854" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\test</Jar>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\resources\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\5.1.37\2c378637f6faff77541244e8257b446f04324bd8\mysql-connector-java-5.1.37.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\com.github.javafaker\javafaker\0.2\c085e56154cf6d89f804fa03d3af2cfbaf4c9c24\javafaker-0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\junit\junit\4.13-beta-2\2470c41ebd351f7edceac9eea7c414ac847a154\junit-4.13-beta-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.jyaml\jyaml\1.3\70100ae146665a5c47f038257f408e4da31f885f\jyaml-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.6.1\58e59bfb3e247097b8122243b3bfe0049c8cfae8\slf4j-simple-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\test\java\com\example\calculatrice\CalculatriceApplicationTests.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\test\java\com\example\calculatrice\SoustractionTest.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:22:09 +0200" total_classes="2" referenced_classes="14" total_bugs="0" total_size="39" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="8.17" clock_seconds="3.03" peak_mbytes="104.68" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="com.example.calculatrice" total_bugs="0" total_types="2" total_size="39">
+      <ClassStats class="com.example.calculatrice.CalculatriceApplicationTests" sourceFile="CalculatriceApplicationTests.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.SoustractionTest" sourceFile="SoustractionTest.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1312" invocations="316" avgMicrosecondsPerInvocation="4154" maxMicrosecondsPerInvocation="247688" standardDeviationMircosecondsPerInvocation="13826"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="315" invocations="37" avgMicrosecondsPerInvocation="8520" maxMicrosecondsPerInvocation="314256" standardDeviationMircosecondsPerInvocation="50956"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="204" invocations="315" avgMicrosecondsPerInvocation="650" maxMicrosecondsPerInvocation="17892" standardDeviationMircosecondsPerInvocation="1384"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="145" invocations="2" avgMicrosecondsPerInvocation="72745" maxMicrosecondsPerInvocation="145405" standardDeviationMircosecondsPerInvocation="72659"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

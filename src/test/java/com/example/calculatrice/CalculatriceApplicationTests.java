@@ -1,6 +1,6 @@
 package com.example.calculatrice;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class CalculatriceApplicationTests {
 

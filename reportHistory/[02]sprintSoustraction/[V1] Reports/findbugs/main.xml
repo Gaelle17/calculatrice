@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554384122424" analysisTimestamp="1554384122600" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\CalculatriceApplication.class</Jar>
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\Soustraction.class</Jar>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main</AuxClasspathEntry>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\CalculatriceApplication.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\Soustraction.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:22:02 +0200" total_classes="2" referenced_classes="10" total_bugs="0" total_size="10" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="5.69" clock_seconds="2.87" peak_mbytes="96.92" alloc_mbytes="455.50" gc_seconds="0.03">
+    <PackageStats package="com.example.calculatrice" total_bugs="0" total_types="2" total_size="10">
+      <ClassStats class="com.example.calculatrice.CalculatriceApplication" sourceFile="CalculatriceApplication.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.Soustraction" sourceFile="Soustraction.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="595" invocations="4" avgMicrosecondsPerInvocation="148801" maxMicrosecondsPerInvocation="595113" standardDeviationMircosecondsPerInvocation="257678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="552" invocations="288" avgMicrosecondsPerInvocation="1918" maxMicrosecondsPerInvocation="36699" standardDeviationMircosecondsPerInvocation="3645"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="245" invocations="287" avgMicrosecondsPerInvocation="854" maxMicrosecondsPerInvocation="38844" standardDeviationMircosecondsPerInvocation="2841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="74" invocations="10" avgMicrosecondsPerInvocation="7468" maxMicrosecondsPerInvocation="49304" standardDeviationMircosecondsPerInvocation="14652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="69" invocations="4" avgMicrosecondsPerInvocation="17351" maxMicrosecondsPerInvocation="68137" standardDeviationMircosecondsPerInvocation="29321"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
