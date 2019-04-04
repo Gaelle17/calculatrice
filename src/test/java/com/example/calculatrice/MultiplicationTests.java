@@ -24,4 +24,9 @@ public class MultiplicationTests {
   public void multiplicationTest3() {
     assertTrue(5 * 0 == Multiplication.multiplication(5, 0));
   }
+ 
+  @Test
+  public void multiplicationTest4() {
+    assertTrue(0 * 5 == Multiplication.multiplication(0, 5));
+  }
 }
