@@ -4,9 +4,9 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.8
 version = '1.0'
 
-def classesJava = "${project.buildDir}/classes/main"
+def classesJava = "${project.buildDir}/classes/java/main"
 def javasRoot = "${rootProject.rootDir}/src/main/java"
-def testClassesJava = "$project.buildDir}/classes/test"
+def testClassesJava = "${project.buildDir}/classes/java/test"
 def testJavaRoot = "${rootProject.rootDir}/src/test/java"
 
 jar {
@@ -73,3 +73,53 @@ task copyDeps(type: Copy) {
 
 
 
+
+
+/*FindBugs*/
+apply plugin: 'findbugs'
+
+task findbugsMain (type: FindBugs, overwrite: true) {
+ignoreFailures = true
+description 'Run findbugs'
+classes = fileTree(classesJava)
+source = fileTree(javasRoot)
+classpath = files(classesJava)
+effort = 'max'
+excludeFilter = file("$rootProject.projectDir/config/findbugs/findbugsExclude.xml")
+reports {
+xml.enabled = true
+html.enabled = false
+}
+}
+
+/*PMD*/
+apply plugin: 'pmd'
+
+task pmdMain(type: Pmd, overwrite: true) {
+ignoreFailures = true
+description 'Runs PMD inspection against Android sourcesets.'
+group = 'Code Quality'
+ruleSetFiles = files("${rootProject.rootDir}/config/pmd/pmd_rules.xml")
+source = fileTree(javasRoot)
+include '**/*.java'
+exclude '**/gen/**'
+reports {
+xml.enabled = true
+html.enabled = false
+}
+}
+
+/*JaCoCo*/
+apply plugin: 'jacoco'
+
+jacoco {
+    toolVersion = "0.8.3"
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled false
+        html.destination file("${buildDir}/reports/jacoco")
+    }
+}
