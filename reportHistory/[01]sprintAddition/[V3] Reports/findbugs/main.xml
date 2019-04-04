@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554380667400" analysisTimestamp="1554380667439" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\Addition.class</Jar>
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\CalculatriceApplication.class</Jar>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main</AuxClasspathEntry>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\Addition.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\CalculatriceApplication.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 14:24:27 +0200" total_classes="2" referenced_classes="10" total_bugs="0" total_size="11" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="4.89" clock_seconds="1.47" peak_mbytes="96.24" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="com.example.calculatrice" total_bugs="0" total_types="2" total_size="11">
+      <ClassStats class="com.example.calculatrice.Addition" sourceFile="Addition.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.CalculatriceApplication" sourceFile="CalculatriceApplication.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="364" invocations="288" avgMicrosecondsPerInvocation="1264" maxMicrosecondsPerInvocation="5260" standardDeviationMircosecondsPerInvocation="649"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="215" invocations="287" avgMicrosecondsPerInvocation="751" maxMicrosecondsPerInvocation="15737" standardDeviationMircosecondsPerInvocation="1768"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="50" invocations="4" avgMicrosecondsPerInvocation="12554" maxMicrosecondsPerInvocation="49627" standardDeviationMircosecondsPerInvocation="21404"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="44" invocations="10" avgMicrosecondsPerInvocation="4487" maxMicrosecondsPerInvocation="18003" standardDeviationMircosecondsPerInvocation="6278"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="36" invocations="255" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="2552" standardDeviationMircosecondsPerInvocation="267"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="33" invocations="37" avgMicrosecondsPerInvocation="918" maxMicrosecondsPerInvocation="3607" standardDeviationMircosecondsPerInvocation="921"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="32" invocations="22" avgMicrosecondsPerInvocation="1470" maxMicrosecondsPerInvocation="21653" standardDeviationMircosecondsPerInvocation="4510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="30" invocations="10" avgMicrosecondsPerInvocation="3019" maxMicrosecondsPerInvocation="15168" standardDeviationMircosecondsPerInvocation="4695"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

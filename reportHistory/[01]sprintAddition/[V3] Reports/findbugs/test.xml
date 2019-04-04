@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554380671100" analysisTimestamp="1554380671144" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\test</Jar>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\resources\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\5.1.37\2c378637f6faff77541244e8257b446f04324bd8\mysql-connector-java-5.1.37.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\com.github.javafaker\javafaker\0.2\c085e56154cf6d89f804fa03d3af2cfbaf4c9c24\javafaker-0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\junit\junit\4.13-beta-2\2470c41ebd351f7edceac9eea7c414ac847a154\junit-4.13-beta-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.jyaml\jyaml\1.3\70100ae146665a5c47f038257f408e4da31f885f\jyaml-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.6.1\58e59bfb3e247097b8122243b3bfe0049c8cfae8\slf4j-simple-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Jaspe\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\test\java\com\example\calculatrice\AdditionTest.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\test\java\com\example\calculatrice\CalculatriceApplicationTests.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 14:24:31 +0200" total_classes="2" referenced_classes="14" total_bugs="0" total_size="36" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="7.44" clock_seconds="2.27" peak_mbytes="107.30" alloc_mbytes="455.50" gc_seconds="0.03">
+    <PackageStats package="com.example.calculatrice" total_bugs="0" total_types="2" total_size="36">
+      <ClassStats class="com.example.calculatrice.AdditionTest" sourceFile="AdditionTest.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.CalculatriceApplicationTests" sourceFile="CalculatriceApplicationTests.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1017" invocations="316" avgMicrosecondsPerInvocation="3221" maxMicrosecondsPerInvocation="7746" standardDeviationMircosecondsPerInvocation="1566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="205" invocations="315" avgMicrosecondsPerInvocation="653" maxMicrosecondsPerInvocation="20139" standardDeviationMircosecondsPerInvocation="1602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="57" invocations="14" avgMicrosecondsPerInvocation="4104" maxMicrosecondsPerInvocation="14015" standardDeviationMircosecondsPerInvocation="4586"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="51" invocations="14" avgMicrosecondsPerInvocation="3682" maxMicrosecondsPerInvocation="19832" standardDeviationMircosecondsPerInvocation="5579"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="49" invocations="12" avgMicrosecondsPerInvocation="4125" maxMicrosecondsPerInvocation="47142" standardDeviationMircosecondsPerInvocation="12972"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="39" invocations="69" avgMicrosecondsPerInvocation="571" maxMicrosecondsPerInvocation="3964" standardDeviationMircosecondsPerInvocation="679"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
