@@ -36,4 +36,9 @@ public class SoustractionTest {
   public void soustractionTest4() {
     assertTrue(0 - 5 == Soustraction.soustraction(0, 5));
   }
+
+  @Test
+  public void soustractionTest5() {
+    assertTrue(-1 - 0 == Soustraction.soustraction(-1, 0));
+  }
 }
