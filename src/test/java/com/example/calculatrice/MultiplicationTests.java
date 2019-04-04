@@ -9,7 +9,10 @@ public class MultiplicationTests {
 	public void multiplication() {
 		assertTrue(2*4 == Multiplication.multiplication(2, 4));
 	}
-	
-	
+
+  @Test
+  public void multiplicationTest1() {
+    assertTrue(5 * 4 == Multiplication.multiplication(5, 4));
+  }
 
 }
