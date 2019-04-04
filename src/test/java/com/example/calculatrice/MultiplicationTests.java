@@ -34,4 +34,9 @@ public class MultiplicationTests {
   public void multiplicationTest5() {
     assertTrue(-1 * 0 == Multiplication.multiplication(-1, 0));
   }
+  
+  @Test
+  public void multiplicationTest6() {
+    assertTrue(0 * -1 == Multiplication.multiplication(0, -1));
+  }
 }
