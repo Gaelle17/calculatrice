@@ -41,4 +41,14 @@ public class SoustractionTest {
   public void soustractionTest5() {
     assertTrue(-1 - 0 == Soustraction.soustraction(-1, 0));
   }
+
+  @Test
+  public void soustractionTest6() {
+    assertTrue(0 - -1 == Soustraction.soustraction(0, -1));
+  }
+
+  @Test
+  public void soustractionTest7() {
+    assertTrue(5 - -1 == Soustraction.soustraction(5, -1));
+  }
 }
