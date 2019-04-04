@@ -54,6 +54,6 @@ public class SoustractionTest {
 
   @Test
   public void soustractionTest8() {
-    assertTrue(-1 - 5 == Soustraction.soustraction(-1, 1));
+    assertTrue(-1 - 5 == Soustraction.soustraction(-1, 5));
   }
 }
