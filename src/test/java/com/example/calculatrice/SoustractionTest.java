@@ -8,7 +8,7 @@ public class SoustractionTest {
 
   @Test
   public void soustractionClassExistTest() {
-    Class<Soustraction> klass = Addition.class;
+    Class<Soustraction> klass = Soustraction.class;
     assertTrue("com.example.calculatrice.Soustraction".equals(klass.getName()));
   }
 
@@ -50,5 +50,10 @@ public class SoustractionTest {
   @Test
   public void soustractionTest7() {
     assertTrue(5 - -1 == Soustraction.soustraction(5, -1));
+  }
+
+  @Test
+  public void soustractionTest8() {
+    assertTrue(-1 - 5 == Soustraction.soustraction(-1, 1));
   }
 }
