@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554389357788" analysisTimestamp="1554389357832" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\Addition.class</Jar>
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\CalculatriceApplication.class</Jar>
+    <Jar>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main\com\example\calculatrice\Multiplication.class</Jar>
+    <AuxClasspathEntry>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\build\classes\java\main</AuxClasspathEntry>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\Addition.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\CalculatriceApplication.java</SrcDir>
+    <SrcDir>C:\Users\Jaspe\Documents\IMIEN3\CI\calculatrice\src\main\java\com\example\calculatrice\Multiplication.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 16:49:17 +0200" total_classes="3" referenced_classes="11" total_bugs="0" total_size="16" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="5.05" clock_seconds="1.58" peak_mbytes="97.20" alloc_mbytes="455.50" gc_seconds="0.03">
+    <PackageStats package="com.example.calculatrice" total_bugs="0" total_types="3" total_size="16">
+      <ClassStats class="com.example.calculatrice.Addition" sourceFile="Addition.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.CalculatriceApplication" sourceFile="CalculatriceApplication.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.example.calculatrice.Multiplication" sourceFile="Multiplication.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="400" invocations="289" avgMicrosecondsPerInvocation="1384" maxMicrosecondsPerInvocation="4200" standardDeviationMircosecondsPerInvocation="715"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="227" invocations="288" avgMicrosecondsPerInvocation="789" maxMicrosecondsPerInvocation="19872" standardDeviationMircosecondsPerInvocation="1907"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="53" invocations="256" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="13228" standardDeviationMircosecondsPerInvocation="863"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="52" invocations="11" avgMicrosecondsPerInvocation="4801" maxMicrosecondsPerInvocation="26444" standardDeviationMircosecondsPerInvocation="8053"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="45" invocations="6" avgMicrosecondsPerInvocation="7602" maxMicrosecondsPerInvocation="44972" standardDeviationMircosecondsPerInvocation="16712"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="38" invocations="39" avgMicrosecondsPerInvocation="990" maxMicrosecondsPerInvocation="5556" standardDeviationMircosecondsPerInvocation="1104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="37" invocations="23" avgMicrosecondsPerInvocation="1610" maxMicrosecondsPerInvocation="22584" standardDeviationMircosecondsPerInvocation="4656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="28" invocations="11" avgMicrosecondsPerInvocation="2565" maxMicrosecondsPerInvocation="15200" standardDeviationMircosecondsPerInvocation="4353"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
